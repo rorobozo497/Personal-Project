@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Light beige */
+    color: #333; /* Dark text color */
+}
+
+
+header {
+    background-color: #3fa2e8; /* Purple */
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    width: 100%;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em;
+    flex-grow: 1;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+}
+
+
+#content {
+    flex: 2;
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#game-section {
+    flex: 1;
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+#game-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #d9d9d9; /* Light gray */
+    border: 2px solid #3fa2e8; /* Purple border */
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+
+#square {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ff6f61; /* Orange */
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #3fa2e8; /* Purple */
+    color: rgb(255, 255, 255);
+    padding: 1em 0;
+    width: 100%;
+}
+nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+pre {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+nav {
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+    position: sticky; /* Sticks to the top of the viewport */
+    top: 0; /* Sticks at the very top */
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+nav ul li {
+    display: inline;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+#about-me {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#about-me h2 {
+    color: #6b5b95; /* Purple accent color */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+#about-me p {
+    line-height: 1.6;
+    font-size: 1em;
+    color: #333;
+}

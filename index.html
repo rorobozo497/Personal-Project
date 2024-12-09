@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding for Beginners</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Learn to Code for Beginners</h1>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Left Column: Content -->
+            <section id="content">
+                <h2>About the Game</h2>
+                <p>
+                    While you rest at this website, try playing some games. This website offers a game which looks easy, but is very tedious when on a computer. Pretty tedious to code this too... Nonetheless, you will still get your fair share of fun, and I will get a good grade for this. If you get bored from playing this very "complexly coded" game, you can scroll down and press on one of the following option below to explore the different lagnuages it take to code a website with a fully functional game. Not that hard right?..
+                <p>
+                    Fun Fact: Reaction-based games like this one help improve your hand-eye coordination and reflexes!
+                </p>
+                 <!-- Right Column: Game -->
+            <section id="game-section">
+                <h2>Catch the Square Game</h2>
+                <p>Click the moving square to score points!</p>
+                <div id="game-container">
+                    <div id="square"></div>
+                </div>
+                <p id="score-display">Score: 0</p>
+            </section>
+        </div>
+    </main>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#html-section">HTML</a></li>
+                    <li><a href="#css-section">CSS</a></li>
+                    <li><a href="#javascript-section">JavaScript</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                </ul>  
+            </nav>
+        </section>  
+ 
+
+
+
+
+    <div class="container">
+                <section id="html-section">
+                    <h2>HTML Basics</h2>
+                    <p>HTML (HyperText Markup Language) is the backbone of any website. It provides the structure and content of a webpage. All websites are made from coding, so although you may use websites to create your own landing page without coding, technically all of that tedious process is done by the website writing the code to help suit what styles or structures you use for your landing page.</p>
+                    <ul>
+                        <li><strong>Tags:</strong> HTML uses tags to define elements, such as headings, paragraphs, and links. In the example below, you can see the beginning words of ever line to be in tags. (The greater and less than sign for you beginners). You can NOT start a line with out these tags for any define elements.</li>
+                        <li><strong>Attributes:</strong> Tags can have different styles, such as font style or color, to add extra information, like <code>id</code> or <code>class</code>.</li>
+                        <li><strong>Structure:</strong> A basic HTML document has a <code>&lt;head&gt;</code> (for style of the website itself) and a <code>&lt;body&gt;</code> (this is the part where you see the words you are reading right now).</li>
+                    </ul>
+                    <p><strong>Example:</strong></p>
+                    <pre>
+                &lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                  &lt;head&gt;
+                    &lt;title&gt;My First Page&lt;/title&gt;
+                  &lt;/head&gt;
+                  &lt;body&gt;
+                    &lt;h1&gt;Hello, World!&lt;/h1&gt;
+                    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                  &lt;/body&gt;
+                &lt;/html&gt;
+                    </pre>
+                </p>
+                    Example of what the code should look like:
+                </p>
+                    <IMG src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHTnirFyVwjUFynxVhTwpX8zXP6xZEVkhqg&s" alt="This is an example of what the code should create" width="250" length="100">
+                </section>
+           
+            <section id="css-section">
+                <h2>CSS Basics</h2>
+                <p>CSS (Cascading Style Sheets) controls the appearance and layout of a webpage. It allows you to make your website visually appealing.</p>
+                <ul>
+                    <li><strong>Selectors:</strong> Select elements to style (e.g., <code>body</code>, <code>#id</code>, or <code>.class</code>). This changes the style such as color and structure of the sections.</li>
+                    <li><strong>Properties:</strong> Define what to style, like color, font size, or margin.</li>
+                    <li><strong>Values:</strong> Set the value for each property, like <code>red</code>, <code>16px</code>, or <code>auto</code>.</li>
+                </ul>
+                <p><strong>Example:</strong></p>
+                <pre>
+            body {
+                background-color: lightblue;
+                font-family: Arial, sans-serif;
+            }
+           
+            h1 {
+                color: darkblue;
+                text-align: center;
+            }
+                </pre>
+            <IMG src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFwApyJMJdyBQiLAlx2amikr6aiD3H6-STlQ&s">
+            </section>
+           
+                <section id="javascript-section">
+                    <h2>JavaScript Basics</h2>
+                    <p>JavaScript is a programming language that adds interactivity and logic to your website. It's used for dynamic content like animations, form validation, and games.</p>
+                    <ul>
+                        <li><strong>Variables:</strong> Stores data (e.g., <code>let name = 'Alice';</code>). This ensures that the code knows what you are talking about if you define that variable.</li>
+                        <li><strong>Functions:</strong> Create reusable blocks of code (e.g., <code>function greet() { alert('Hello!'); }</code>).</li>
+                        <li><strong>Events:</strong> Add interactivity, like clicks or keypresses (e.g., <code>button.addEventListener('click', myFunction);</code>). This is what increase the score counter everytime you press the square in the game above.</li>
+                    </ul>
+                    <p><strong>Example:</strong></p>
+                    <pre>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const btn = document.getElementById('myButton');
+                    btn.addEventListener('click', () => {
+                        alert('You clicked the button!');
+                    });
+                });
+                    </pre>
+                <IMG src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfaWV05D8XYleBKI-IhUiDU8H9q62-ljuZdQ&s">
+                </section>
+                <section id="about-me">
+                    <h2>About Me</h2>
+                    <p>Hello! I'm Rohith Challa, and I am passionate about helping beginners learn to code. With absoultely NO experience, I started to learn how to code for the sake off a project. With a deadline being in place, it placed a lot of pressure on me, trying to learn 3 different languages, HTML, CSS, and Javascript. But in less than 3 months, I learned how to code, and here I am, sharing my experiences and the struggle.</p>
+                    <p> I am here to make sure you do not endure the struggle of learning how to code, so in this website, I have listed the basic topics in the languages, to help you get a good grasp on it as you move on.</p>
+                    <p>So feel free and start digging in on to the tips and tricks I have gathered for you through my hard work and pain.</p>
+                </section>
+                <footer>
+                    <p>&copy; 2024 Coding for Beginners</p>
+                </footer>
+                <script src="script.js"></script>
+            </div>    
+</body>              
