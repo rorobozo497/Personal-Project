@@ -204,29 +204,6 @@ nav ul li a:hover {
 #how-to-use a:hover {
     text-decoration: underline;
 }
-
-#about-me {
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-
-#about-me h2 {
-    color: #6b5b95; /* Purple accent color */
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-
-#about-me p {
-    line-height: 1.6;
-    font-size: 1em;
-    color: #333;
-}
 /* General Layout */
 .container {
     display: grid;
@@ -237,15 +214,16 @@ nav ul li a:hover {
 
 /* Sidebar (About Me) */
 #about-me {
-    background-color: #eef7f9; /* Light blue */
+    background-color: #eef7f9; /* Light blue for readability */
     padding: 20px;
     border-radius: 5px;
     border: 1px solid #ddd;
-    height: fit-content; /* Ensure it only takes up space needed */
+    height: fit-content; /* Ensure it only takes up necessary space */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #about-me h2 {
-    color: #2a6171; /* Teal */
+    color: #2a6171; /* Teal color */
     font-size: 1.5em;
     margin-bottom: 10px;
 }
@@ -263,6 +241,6 @@ main {
     border-radius: 5px;
     border: 1px solid #ddd;
 }
-grid-template-columns: 3fr 1fr; /* Main Content (3fr) and Sidebar (1fr) */
+
 
 
