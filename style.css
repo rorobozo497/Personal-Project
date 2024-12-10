@@ -263,4 +263,6 @@ main {
     border-radius: 5px;
     border: 1px solid #ddd;
 }
+grid-template-columns: 3fr 1fr; /* Main Content (3fr) and Sidebar (1fr) */
+
 
